@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:background="@drawable/list24">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+
+            android:layout_height="50dp"
+            ></Spinner>
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinner"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="20dp"
+            android:paddingBottom="4dp"
+            android:textAlignment="center"
+            android:text="Select the announcement you want to delete and Click confirm"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/desc"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="147dp"
+            android:text="Confirm Delete"
+            android:textAlignment="center"
+            />
+
+
+    </RelativeLayout>
+</ScrollView>

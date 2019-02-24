@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+     <item android:id="@+id/db1" android:title="Dashboard" android:icon="@drawable/db1"></item>
+    <item android:id="@+id/db2" android:title="About School" android:icon="@drawable/db2"></item>
+    <item android:id="@+id/db3" android:title="Achievements" android:icon="@drawable/db3"></item>
+
+
+    <item android:id="@+id/db6" android:title="Rectify Attendance" android:icon="@drawable/paste"></item>
+    <item android:id="@+id/db4" android:title="Principal's Message" android:icon="@drawable/md"></item>
+    <item android:id="@+id/db7" android:title="Managing Director" android:icon="@drawable/princi"></item>
+    <item android:id="@+id/db5" android:title="App Creator" android:icon="@drawable/db5"></item>
+
+</menu>

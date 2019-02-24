@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ragnar.walli.MainActivity"
+    android:background="@drawable/list24">
+   <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+
+       android:id="@+id/spinner"
+       ></com.toptoche.searchablespinnerlibrary.SearchableSpinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_below="@+id/spinner"
+        android:id="@+id/date"
+        android:textStyle="bold"
+        android:paddingLeft="3dp"/>
+    <Button
+        android:layout_below="@id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:text="Get Count of Students"
+        android:textAlignment="center"
+        android:onClick="showSelectedItems"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:paddingTop="8dp"
+        android:paddingBottom="2dp"
+        android:hint=" Present "
+        android:textAlignment="center"
+
+        android:id="@+id/txt"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp"
+        android:layout_alignTop="@+id/bt" />
+    <ListView
+        android:layout_below="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ListView"></ListView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ListView"
+        android:text="Punch  Attendance"
+
+        android:id="@+id/Punch"/>
+
+</RelativeLayout>

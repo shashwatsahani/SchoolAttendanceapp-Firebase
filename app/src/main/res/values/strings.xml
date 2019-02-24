@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Duly</string>
+    <string name="Reg_no">Sr.No and House</string>
+    <string name="Check_Announcement">Check Announcement</string>
+    <string name="log_out">Log Out</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+</resources>
